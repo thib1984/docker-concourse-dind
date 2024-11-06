@@ -1,4 +1,4 @@
-ARG docker_version=27.0.3
+ARG docker_version=27.3.1
 FROM docker:${docker_version}-dind
 
 RUN set -x \
